@@ -2,6 +2,7 @@
 // import { z } from "zod";
 
 export const mappings = {
+  "python django":"django",
   "react.js": "react",
   reactjs: "react",
   react: "react",
