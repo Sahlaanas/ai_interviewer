@@ -5,10 +5,12 @@ import Link from "next/link";
 import React from "react";
 import InterviewCard from "../../components/InterviewCard";
 import {
-  getCurrentUser,
+  getCurrentUser
+} from "@/lib/actions/auth.action";
+import {
   getInterviewByUserId,
   getLatestInterviews,
-} from "@/lib/actions/auth.action";
+} from "@/lib/actions/general.action";
 import { late } from "zod";
 
 const page = async () => {
